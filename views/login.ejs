@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+<body>
+      <div class="container mt-4" style="width: 450px;">
+        <div class="card shadow rounded-4 border-4">
+            <div class="card-body">
+                <div class="text-center text-primary mb-4">
+                    <h4>Login And Start Learning !</h4>
+
+                </div>
+                <form action="/login" method="POST">
+                    <div class="mb-3">
+                        <input type="email" name="email" placeholder="enter your email" class="form-control border-primary">
+
+                    </div>
+                     <div class="mb-3">
+                        <input type="password" name="password" placeholder="Enter Password" class="form-control border-primary">
+
+                    </div>
+                    <div class="d-grid mb-3">
+                        <button class="btn btn-primary btn-lg">Sign In</button>
+                    </div>
+                    <div>
+                        <span>Don't have an account ?</span>
+                        <a class="btn btn-info" href="/register">Sing Up</a>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+      </div>
+</body>
+</html>
